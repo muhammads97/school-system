@@ -17,3 +17,8 @@
 ##### Everything in a glance.
 ### 7. Announcments:
 ##### Post an Announcement for the Employees
+
+## XD Project:
+#### https://xd.adobe.com/view/2bbc6979-8e97-4083-77fb-c57d8cb6a5f2-5d8d/
+### Specs:
+#### https://xd.adobe.com/spec/b153f6d5-d72e-49b7-6990-a1b35a54bd3a-c762/
