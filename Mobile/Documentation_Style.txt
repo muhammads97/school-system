@@ -1,4 +1,4 @@
-Use /// for Code Documentation:\n
+Use /// for Code Documentation:
 /// This is a paragraph of regular text.
 ///
 /// This sentence has *two* _emphasized_ words (italics) and **two**
