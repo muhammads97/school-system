@@ -17,7 +17,7 @@ class LoginState extends State<MyHomePage> {
   ///function return
   Widget _getScuffold(){
     return new Scaffold(
-      //your code goes here
+      //your code goes here.
     );
   }
 }
