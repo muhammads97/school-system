@@ -1,4 +1,4 @@
-##Use /// for Code Documentation:
+Use /// for Code Documentation:
 /// This is a paragraph of regular text.
 ///
 /// This sentence has *two* _emphasized_ words (italics) and **two**
@@ -50,16 +50,16 @@
 ///
 /// #### If you need this many levels of headers, you're doing it wrong
 
-##Use // for code explanation. 
+Use // for code explanation. 
 
-##use this style before every class:
+use this style before every class:
 /// Class description:
 ///
 /// Author: Name
 /// Author: email
 /// Date Modified: 
 
-##use this style before functions:
+use this style before functions:
 ///function description
 ///function parameters 
 ///function return
