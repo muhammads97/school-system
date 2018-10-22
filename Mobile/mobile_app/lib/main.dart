@@ -10,28 +10,17 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'School System',
       theme: new ThemeData(
-        primarySwatch: Colors.white,
+        primarySwatch: Colors.blue,
+        fontFamily: 'geoma'
       ),
-      home: new MyHomePage(_userType),
+      home: getPage(),
     );
   }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage(int _userType, {Key key}): super(key: key);
-  int _userType;
-  @override
-  State<MyHomePage> createState(){
+  Widget getPage(){
     if(_userType == 0){
-      return new LoginState();
+      return new LoginPage();
+    } else {
+      return Container();
     }
-    return new _MyHomePageState();
-  } 
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-
   }
 }
