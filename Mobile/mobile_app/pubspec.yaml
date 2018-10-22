@@ -32,7 +32,14 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  assets:
+    - assets/images/
+    - assets/
+    - assets/fonts/
+  fonts:
+    - family: geoma
+      fonts:
+        - asset: assets/fonts/Geoma Regular Demo.otf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
