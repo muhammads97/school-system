@@ -1,13 +1,19 @@
 library login;
 import 'package:flutter/material.dart';
-import 'package:mobile_app/main.dart';
+
+class LoginPage extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState() {
+    return new LoginState();
+  }
+}
 
 /// Class description:
 ///
 /// Author: Name
 /// Author: email
 /// Date Modified: 
-class LoginState extends State<MyHomePage> {
+class LoginState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return _getScuffold();
@@ -17,7 +23,7 @@ class LoginState extends State<MyHomePage> {
   ///function return
   Widget _getScuffold(){
     return new Scaffold(
-      //your code goes here
+      // your code
     );
   }
 }
