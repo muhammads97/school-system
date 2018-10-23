@@ -13,7 +13,7 @@ class WelcomeText extends StatelessWidget{
               new Text(
                 "welcome,",
                 style: new TextStyle(
-                  color: Color(0xFF989899),
+                  color: Color(0xFFCACACC),
                   fontSize: 22.0,
                   //fontWeight: FontWeight.w300,
                 ),

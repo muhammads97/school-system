@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:login/schoolLogo.dart';
 import 'package:login/welcomeText.dart';
 import 'package:login/inputs.dart';
+import 'package:login/loginButton.dart';
+import 'package:login/forgetPassword.dart';
 
 class LoginPage extends StatefulWidget{
   @override
@@ -26,22 +28,27 @@ class LoginState extends State<LoginPage> {
   ///function return
   Widget _getScuffold(){
     return new Scaffold(
-      body: new Row(
-        children: <Widget>[
-          new SizedBox(width: 33.5,),
-          new Column(
-            children: <Widget>[
-              new SchoolLogo(),
-              new SizedBox(height: 78.0,),
-              new WelcomeText(),
-              new SizedBox(height: 37.0,),
-              new LoginInputs(),
-            ],
-            crossAxisAlignment: CrossAxisAlignment.start,
-          ),
-        ],
-
-      ), 
+      body: new SingleChildScrollView(
+        child: new Row(
+          children: <Widget>[
+            new SizedBox(width: 33.5,),
+            new Column(
+              children: <Widget>[
+                new SchoolLogo(),
+                new SizedBox(height: 78.0,),
+                new WelcomeText(),
+                new SizedBox(height: 37.0,),
+                new LoginInputs(),
+                new SizedBox(height: 23.0,),
+                new LoginButton(),
+                new SizedBox(height: 20.0,),
+                new ForgetPassword(),
+              ],
+              crossAxisAlignment: CrossAxisAlignment.start,
+            ),
+          ],
+        ),
+      ),
       backgroundColor: Color(0xFFF9F9FA),
     );
   }
