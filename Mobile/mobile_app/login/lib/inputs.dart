@@ -24,7 +24,8 @@ class LoginInputs extends StatelessWidget{
             ),
             child: new TextField(
               style: new TextStyle(
-                fontSize: 22.0
+                fontSize: 22.0,
+                color: Color(0xFF989899),
               ),
               decoration: new InputDecoration(
                 border: InputBorder.none,
@@ -44,7 +45,9 @@ class LoginInputs extends StatelessWidget{
           ),
           new Container(
             child: new TextField(
+              obscureText: true,
               style: new TextStyle(
+                color: Color(0xFF989899),
                 fontSize: 22.0
               ),
               decoration: new InputDecoration(
