@@ -24,40 +24,47 @@ class LoginState extends State<LoginPage> {
   Widget _getScuffold(){
     return new Scaffold(
       // your code
-      body: new Container(
-        alignment: Alignment.topCenter,
-        child: new ListView(
+      body: new SingleChildScrollView(
+        child: new Row(
           children: <Widget>[
-            new Padding(padding: EdgeInsets.only(top:72.5),),
-                  new Container(
-                    alignment: Alignment.topLeft,
-                    child:  new Container(
-                      margin: EdgeInsets.only(left: 33.5),
-                      width: 73.0,
-                      height: 73.0,
-                      color: Colors.black,
-                    ) ),
-                    
-                    
-                   
-                    new Padding(padding: EdgeInsets.all(10.5 ),),
-                    new Container(
-                      margin: EdgeInsets.only(left: 33.5),
-                      child: new Text("School name",style: new TextStyle(
-                      fontSize: 20.0,
-                      fontFamily: 'geoma',
-                      color: Colors.grey,
-                    )  ,
-                    )
-                   )
-
+            new SizedBox(
+              width: 33.5,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new SizedBox(
+                  height: 72.5,
+                ),
+                new Container(
+                  width: 73.0,
+                  height: 73.0,
+                  decoration: new BoxDecoration(
+                    border: Border.all(width: 1.0,color: Color(0xFFD7D7D9)),
+                  ),
+                  child: new Image.asset(
+                  'assets/images/logo_placeholder.png',
                   
-              
-            
-          ],
+                  
+                
+                ),
+                ),
+                new SizedBox(
+                  height: 10.5,
 
+                ),
+                new Text(
+                  "School name",
+                  style: new TextStyle(
+                    color: Color(0xFF989899),
+                    fontSize: 20.0,
+                  ),
+                )
+              ],
+            )
+          ],
         ),
-      ),
+      )
     );
   }
 }
