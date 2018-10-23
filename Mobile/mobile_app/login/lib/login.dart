@@ -1,6 +1,8 @@
 library login;
 import 'package:flutter/material.dart';
 import 'package:login/schoolLogo.dart';
+import 'package:login/welcomeText.dart';
+import 'package:login/inputs.dart';
 
 class LoginPage extends StatefulWidget{
   @override
@@ -24,11 +26,23 @@ class LoginState extends State<LoginPage> {
   ///function return
   Widget _getScuffold(){
     return new Scaffold(
-      appBar: new AppBar(),
-      body: new Container(
-        child: new SchoolLogo(),
+      body: new Row(
+        children: <Widget>[
+          new SizedBox(width: 33.5,),
+          new Column(
+            children: <Widget>[
+              new SchoolLogo(),
+              new SizedBox(height: 78.0,),
+              new WelcomeText(),
+              new SizedBox(height: 37.0,),
+              new LoginInputs(),
+            ],
+            crossAxisAlignment: CrossAxisAlignment.start,
+          ),
+        ],
+
       ), 
-     // new SchoolLogo(),
+      backgroundColor: Color(0xFFF9F9FA),
     );
   }
 }
