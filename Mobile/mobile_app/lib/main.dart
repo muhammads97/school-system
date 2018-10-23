@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'School System',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: 'geoma'
+        fontFamily: 'Geoma'
       ),
       home: getPage(),
     );
