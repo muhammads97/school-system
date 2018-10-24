@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
 
-
+/// a widget consists of two text inputs (text fields)
+/// for username and password
+/// Author: Muhammad Salah
+/// Author: msalah.29.10@gmail.com
+/// Date Modified: 23/10/2018
 class LoginInputs extends StatelessWidget{
+  /// a widget consists of two text inputs (text fields)
+  /// for username and password
+  LoginInputs();
   @override
   Widget build(BuildContext context) {
     return new Container(
       width: 294.0,
       height: 94.0,
+      // decoration for the biggest container (the one with rounded edges)
       decoration: new BoxDecoration(
         border: new Border.all(
           width: 1.0,
@@ -16,6 +24,7 @@ class LoginInputs extends StatelessWidget{
       ),
       child: new Column(
         children: <Widget>[
+          //first input (username).
           new Container(
             decoration: new BoxDecoration(
               border: new Border(
@@ -29,7 +38,7 @@ class LoginInputs extends StatelessWidget{
               ),
               decoration: new InputDecoration(
                 border: InputBorder.none,
-                hintText: "email",
+                hintText: "username",
                 hintStyle: new TextStyle(
                   fontWeight: FontWeight.w300,
                   color: Color(0xFFD7D7D9),
@@ -43,6 +52,7 @@ class LoginInputs extends StatelessWidget{
               ),
             ),
           ),
+          // second input (password).
           new Container(
             child: new TextField(
               obscureText: true,

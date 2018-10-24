@@ -6,6 +6,12 @@ import 'package:login/inputs.dart';
 import 'package:login/loginButton.dart';
 import 'package:login/forgetPassword.dart';
 
+
+/// Class description: a stateful widget that represents the login page.
+///
+/// Author: Muhammad Salah
+/// Author: msalah.29.10@gmail.com
+/// Date Modified: 23/10/2018
 class LoginPage extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
@@ -13,19 +19,18 @@ class LoginPage extends StatefulWidget{
   }
 }
 
-/// Class description:
-///
-/// Author: Name
-/// Author: email
-/// Date Modified: 
+/// Class description: the state of the login page
+/// in which the build function returns a scaffold widget
+/// the scaffold widget has no appBar and it has several widgets in the body. 
+/// Author: Muhammad Salah
+/// Author: msalah.29.10@gmail.com
+/// Date Modified: 23/10/2018
 class LoginState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return _getScuffold();
   }
-  ///function description
-  ///function parameters 
-  ///function return
+  /// returns a scaffold widget.
   Widget _getScuffold(){
     return new Scaffold(
       body: new SingleChildScrollView(

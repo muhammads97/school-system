@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
-
+/// represents three lines welcome text in one widget.
+/// Author: Muhammad Salah
+/// Author: msalah.29.10@gmail.com
+/// Date Modified: 23/10/2018
 class WelcomeText extends StatelessWidget{
+  /// represents three lines welcome text in one widget.
+  WelcomeText();
   @override
   Widget build(BuildContext context) {
     return new Row(
@@ -10,14 +15,15 @@ class WelcomeText extends StatelessWidget{
         new SizedBox(
           child: new Column(
             children: <Widget>[
+              // line one.
               new Text(
                 "welcome,",
                 style: new TextStyle(
                   color: Color(0xFFCACACC),
                   fontSize: 22.0,
-                  //fontWeight: FontWeight.w300,
                 ),
               ),
+              // line two.
               new Text(
                 "please login",
                 style: new TextStyle(
@@ -26,6 +32,7 @@ class WelcomeText extends StatelessWidget{
                   fontWeight: FontWeight.w300,
                 ),
               ),
+              //line three.
               new Text(
                 "to your account",
                 style: new TextStyle(
