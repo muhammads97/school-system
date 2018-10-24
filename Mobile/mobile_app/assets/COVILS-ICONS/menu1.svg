@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 301 640">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-menu1);
+      }
+
+      .cls-10, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f1f9ff;
+      }
+
+      .cls-4 {
+        fill: #bce0fd;
+      }
+
+      .cls-5 {
+        fill: #7fc4fd;
+      }
+
+      .cls-12, .cls-13, .cls-6, .cls-8, .cls-9 {
+        fill: #2699fb;
+      }
+
+      .cls-13, .cls-14, .cls-6 {
+        font-size: 20px;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: GeomaLightDemo, Geoma Demo;
+      }
+
+      .cls-7 {
+        font-family: Gigi-Regular, Gigi;
+      }
+
+      .cls-16, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-10 {
+        font-size: 10px;
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-12 {
+        fill-rule: evenodd;
+      }
+
+      .cls-13, .cls-14, .cls-16 {
+        font-family: GeomaRegularDemo, Geoma Regular Demo;
+      }
+
+      .cls-14, .cls-15 {
+        fill: #f23a27;
+      }
+
+      .cls-16 {
+        fill: #b1b1b3;
+      }
+    </style>
+    <clipPath id="clip-menu1">
+      <rect width="301" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="menu1" class="cls-1">
+    <rect id="Rectangle_180" data-name="Rectangle 180" class="cls-2" width="301" height="640"/>
+    <g id="hero" transform="translate(0 -68)">
+      <rect id="Rectangle_482" data-name="Rectangle 482" class="cls-3" width="301" height="106" transform="translate(0 204)"/>
+      <g id="Photo">
+        <rect id="Rectangle_477" data-name="Rectangle 477" class="cls-4" width="301" height="136" transform="translate(0 68)"/>
+        <path id="Union_31" data-name="Union 31" class="cls-5" d="M0,68.6V60.027c0-9.435,15.435-17.152,34.3-17.152s34.3,7.718,34.3,17.152V68.6ZM17.148,17.152A17.15,17.15,0,1,1,34.3,34.3,17.152,17.152,0,0,1,17.148,17.152Z" transform="translate(116.578 101.699)"/>
+      </g>
+      <g id="Name" transform="translate(22 236)">
+        <text id="A.hassan" class="cls-6" transform="translate(0 18)"><tspan x="0" y="0">A</tspan><tspan class="cls-7" y="0">.</tspan><tspan y="0">hassan</tspan></text>
+        <text id="Staff_management_" data-name="Staff management " class="cls-8" transform="translate(0 39)"><tspan x="0" y="0">Staff management </tspan></text>
+        <g id="Symbol_4_1" data-name="Symbol 4 – 1" transform="translate(70 -307)">
+          <rect id="Rectangle_150" data-name="Rectangle 150" class="cls-9" width="96" height="40" rx="4" transform="translate(92 308)"/>
+          <text id="EDIT" class="cls-10" transform="translate(140 332)"><tspan x="-11.389" y="0">EDIT</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_63" data-name="Group 63" transform="translate(3 67)">
+      <g id="Symbol_5_1" data-name="Symbol 5 – 1" transform="translate(-47 154)">
+        <rect id="Rectangle_193" data-name="Rectangle 193" class="cls-11" width="16" height="16" transform="translate(80 112)"/>
+        <g id="SETTING">
+          <path id="Path_104" data-name="Path 104" class="cls-12" d="M273.125,17.5a3.5,3.5,0,1,0-3.5-3.5A3.51,3.51,0,0,0,273.125,17.5ZM265.95,6.3a9.87,9.87,0,0,1,4.2-2.275L271.55,0h3.5l1.4,4.025a12.22,12.22,0,0,1,4.2,2.275l4.2-.875,1.75,3.15-2.8,3.15A9.979,9.979,0,0,1,283.975,14c0,.7-.175,1.575-.175,2.275l2.8,3.15-1.75,3.15-4.2-.875a9.869,9.869,0,0,1-4.2,2.275L275.05,28h-3.5l-1.4-4.025a12.221,12.221,0,0,1-4.2-2.275l-4.2.875L260,19.425l2.8-3.15A9.976,9.976,0,0,1,262.625,14c0-.7.175-1.575.175-2.275L260,8.575l1.75-3.15Z" transform="translate(-187.7 114)"/>
+        </g>
+      </g>
+      <text id="Settings" class="cls-13" transform="translate(75 269)"><tspan x="0" y="19">Settings</tspan></text>
+      <text id="Help" class="cls-13" transform="translate(75 338)"><tspan x="0" y="19">Help</tspan></text>
+      <text id="Log_out" data-name="Log out" class="cls-14" transform="translate(75 486)"><tspan x="0" y="19">Log out</tspan></text>
+      <text id="Notifications" class="cls-13" transform="translate(75 200)"><tspan x="0" y="19">Notifications</tspan></text>
+    </g>
+    <path id="Path_231" data-name="Path 231" class="cls-12" d="M24.555,22.838h-8.2a3.279,3.279,0,0,1-6.559,0H1.6A1.574,1.574,0,0,1,.124,21.7,1.736,1.736,0,0,1,.616,19.9a6.556,6.556,0,0,0,2.623-5.22V9.788A9.842,9.842,0,0,1,13.077,0c5.411,0,9.838,9.788,9.838,9.788v4.894a6.556,6.556,0,0,0,2.623,5.22A1.54,1.54,0,0,1,26.03,21.7,1.574,1.574,0,0,1,24.555,22.838Z" transform="translate(27.938 265)"/>
+    <g id="Help-2" data-name="Help" transform="translate(-214 -284)">
+      <rect id="Rectangle_481" data-name="Rectangle 481" class="cls-11" width="16" height="16" transform="translate(247 538)"/>
+      <path id="Path_146" data-name="Path 146" class="cls-9" d="M14.5,0A14.5,14.5,0,1,0,29,14.5,14.543,14.543,0,0,0,14.5,0Zm-.145,24.07a2.03,2.03,0,1,1,2.03-2.03A1.982,1.982,0,0,1,14.355,24.07ZM18.27,12.76l-1.6,1.74a1.771,1.771,0,0,0-.58,1.305,1.763,1.763,0,0,1-1.74,1.74,1.675,1.675,0,0,1-1.74-1.74,3.236,3.236,0,0,1,1.16-2.61l1.3-1.595A3.291,3.291,0,0,0,16.1,9.57a1.521,1.521,0,0,0-1.6-1.6A1.706,1.706,0,0,0,12.76,9.28,1.893,1.893,0,0,1,11.02,10.3,1.521,1.521,0,0,1,9.425,8.7a1.577,1.577,0,0,1,.145-.725c.58-1.74,2.32-3.045,4.93-3.045,3.045,0,5.075,2.03,5.075,4.64A4.757,4.757,0,0,1,18.27,12.76Z" transform="translate(240.5 686.5)"/>
+    </g>
+    <g id="Group_54" data-name="Group 54" transform="translate(32.369 550.4)">
+      <path id="Path_205" data-name="Path 205" class="cls-15" d="M18.47,22.327v5.866a1.5,1.5,0,0,1-1.451,1.543H3.206a1.5,1.5,0,0,1-1.451-1.543V3.407A1.5,1.5,0,0,1,3.206,1.865H17.034a1.5,1.5,0,0,1,1.451,1.543V9.443a.914.914,0,0,0,.877.932h0a.914.914,0,0,0,.877-.932V3.407A3.311,3.311,0,0,0,17.034,0H3.206A3.311,3.311,0,0,0,0,3.407V28.192A3.311,3.311,0,0,0,3.206,31.6H17.034a3.311,3.311,0,0,0,3.206-3.407V22.327a.914.914,0,0,0-.877-.932h0A.906.906,0,0,0,18.47,22.327Z"/>
+      <g id="Group_53" data-name="Group 53" transform="translate(11.468 11.385)">
+        <g id="Group_52" data-name="Group 52">
+          <path id="Path_206" data-name="Path 206" class="cls-15" d="M87.435,70.29c-.016.016-.016.048-.032.064a.607.607,0,0,1-.144.207l-3.541,3.525a.886.886,0,0,1-1.244,0,.9.9,0,0,1,0-1.244l2.042-2.026H72.777a.877.877,0,0,1,0-1.754H84.516L82.475,67.02a.88.88,0,0,1,1.244-1.244l3.541,3.541a.607.607,0,0,1,.144.207c.016.016.016.048.032.064A.777.777,0,0,1,87.435,70.29Z" transform="translate(-71.9 -65.525)"/>
+        </g>
+      </g>
+    </g>
+    <text id="About" class="cls-16" transform="translate(250 612)"><tspan x="0" y="0">About</tspan></text>
+  </g>
+</svg>

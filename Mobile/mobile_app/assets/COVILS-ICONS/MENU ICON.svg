@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.1 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2699fb;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="MENU_ICON" data-name="MENU ICON" transform="translate(-22.25 -37.5)">
+    <path id="Path_101" data-name="Path 101" class="cls-1" d="M744.75,601h26.1" transform="translate(-721 -562)"/>
+    <path id="Path_103" data-name="Path 103" class="cls-1" d="M744.75,601h26.1" transform="translate(-721 -551.5)"/>
+    <path id="Path_105" data-name="Path 105" class="cls-1" d="M744.75,601h26.1" transform="translate(-721 -541)"/>
+  </g>
+</svg>
