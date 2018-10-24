@@ -1,5 +1,12 @@
 library login;
 import 'package:flutter/material.dart';
+import 'package:login/schoolLogo.dart';
+import 'package:login/schoolName.dart';
+import 'package:login/welcomeText.dart';
+import 'package:login/userData.dart';
+import 'package:login/loginButton.dart';
+import 'package:login/resetPassword.dart';
+
 
 class LoginPage extends StatefulWidget{
   @override
@@ -33,38 +40,37 @@ class LoginState extends State<LoginPage> {
             new Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                new SizedBox(
-                  height: 72.5,
-                ),
-                new Container(
-                  width: 73.0,
-                  height: 73.0,
-                  decoration: new BoxDecoration(
-                    border: Border.all(width: 1.0,color: Color(0xFFD7D7D9)),
-                  ),
-                  child: new Image.asset(
-                  'assets/images/logo_placeholder.png',
-                  
-                  
-                
-                ),
-                ),
-                new SizedBox(
-                  height: 10.5,
 
-                ),
-                new Text(
-                  "School name",
-                  style: new TextStyle(
-                    color: Color(0xFF989899),
-                    fontSize: 20.0,
-                  ),
-                )
+                new SizedBox( height: 72.5,),
+                
+                new SchoolLogo(),
+                
+                new SizedBox(height: 10.5,),
+
+                new SchoolName(),
+
+                new SizedBox(height: 78.0,),
+
+                new WelcomeText(),
+
+                new SizedBox(height: 37.0,),
+                
+                new UserData(),
+
+                new SizedBox(height: 23.0,),
+                
+                new LoginButton(),
+
+                new SizedBox(height: 24.0,),
+
+                new ResetPassword(),
+
               ],
             )
           ],
         ),
-      )
+      ),
+      backgroundColor: Color(0xFFF9F9FA),
     );
   }
 }
