@@ -4,7 +4,7 @@ import 'package:login/login.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
-  final int _userType = 0;
+  int _userType = 0;
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
