@@ -82,11 +82,6 @@ class LoginState extends State<LoginPage> {
           fontWeight: FontWeight.w300),
     ),
   );
-  
 
-  //password
 
-  //loginbtn
-  //forget password
-  
 }
