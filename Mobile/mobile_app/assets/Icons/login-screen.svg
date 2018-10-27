@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 640">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-login-screen);
+      }
+
+      .cls-14, .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #cacacc;
+      }
+
+      .cls-3 {
+        stroke-linecap: square;
+      }
+
+      .cls-11, .cls-15, .cls-4 {
+        fill: #2699fb;
+      }
+
+      .cls-5 {
+        stroke: #d7d7d9;
+      }
+
+      .cls-6 {
+        fill: #989899;
+        font-size: 20px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: GeomaRegularDemo, Geoma Regular Demo;
+      }
+
+      .cls-7 {
+        fill: #bdbdbf;
+        font-size: 26px;
+      }
+
+      .cls-8 {
+        fill: #d7d7d9;
+      }
+
+      .cls-12, .cls-8, .cls-9 {
+        font-size: 22px;
+      }
+
+      .cls-10, .cls-8, .cls-9 {
+        font-family: GeomaLightDemo, Geoma Demo;
+      }
+
+      .cls-16, .cls-9 {
+        fill: #f9f9fa;
+      }
+
+      .cls-10 {
+        fill: #b1b1b3;
+        font-size: 12px;
+      }
+
+      .cls-13, .cls-15 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-login-screen">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="login-screen" class="cls-1">
+    <rect class="cls-16" width="360" height="640"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(33 387)">
+      <g id="Group_1" data-name="Group 1">
+        <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+          <rect class="cls-13" width="294" height="94" rx="8"/>
+          <rect class="cls-14" x="0.5" y="0.5" width="293" height="93" rx="7.5"/>
+        </g>
+        <line id="Line_1" data-name="Line 1" class="cls-3" x1="291" transform="translate(1.5 47.5)"/>
+      </g>
+    </g>
+    <g id="Path_1" data-name="Path 1" class="cls-4" transform="translate(33 504)">
+      <path class="cls-13" d="M 286 45.5 L 8 45.5 C 3.864500045776367 45.5 0.5 42.13550186157227 0.5 38 L 0.5 8 C 0.5 3.864500045776367 3.864500045776367 0.5 8 0.5 L 286 0.5 C 290.135498046875 0.5 293.5 3.864500045776367 293.5 8 L 293.5 38 C 293.5 42.13550186157227 290.135498046875 45.5 286 45.5 Z"/>
+      <path class="cls-15" d="M 8 1 C 4.14019775390625 1 1 4.140193939208984 1 8 L 1 38 C 1 41.85980606079102 4.14019775390625 45 8 45 L 286 45 C 289.8598022460938 45 293 41.85980606079102 293 38 L 293 8 C 293 4.140193939208984 289.8598022460938 1 286 1 L 8 1 M 8 0 L 286 0 C 290.4182739257813 0 294 3.581729888916016 294 8 L 294 38 C 294 42.41827011108398 290.4182739257813 46 286 46 L 8 46 C 3.58172607421875 46 0 42.41827011108398 0 38 L 0 8 C 0 3.581729888916016 3.58172607421875 0 8 0 Z"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 -20)">
+      <g id="Group_3" data-name="Group 3" transform="translate(33 92)">
+        <g id="Rectangle_2" data-name="Rectangle 2" class="cls-5">
+          <rect class="cls-13" width="73" height="73"/>
+          <rect class="cls-14" x="0.5" y="0.5" width="72" height="72"/>
+        </g>
+        <line id="Line_2" data-name="Line 2" class="cls-5" x1="73" y2="73" transform="translate(0.5 0.5)"/>
+        <line id="Line_3" data-name="Line 3" class="cls-5" x1="73" y1="73" transform="translate(0.5 0.5)"/>
+      </g>
+      <text id="School_name" data-name="School name" class="cls-6" transform="translate(31 176)"><tspan x="0" y="19">School name</tspan></text>
+    </g>
+    <text id="welcome_please_login_to_your_account" data-name="welcome, 
+please login 
+to your account" class="cls-7" transform="translate(48 260)"><tspan x="0" y="25">welcome, </tspan><tspan class="cls-8"><tspan x="0" y="51">please login </tspan><tspan x="0" y="77">to your account</tspan></tspan></text>
+    <text id="email" class="cls-8" transform="translate(48 397)"><tspan x="0" y="20">email</tspan></text>
+    <text id="password" class="cls-8" transform="translate(48 444)"><tspan x="0" y="20">password</tspan></text>
+    <text id="LOGIN" class="cls-9" transform="translate(33 514)"><tspan x="117.266" y="20">LOGIN</tspan></text>
+    <text id="Forget_password_Reset_your_password_" data-name="Forget password? Reset your password " class="cls-10" transform="translate(33 574)"><tspan x="49.424" y="20">Forget password?</tspan><tspan class="cls-11" y="20" xml:space="preserve"> Reset your password</tspan><tspan class="cls-12" y="20"> </tspan></text>
+  </g>
+</svg>
