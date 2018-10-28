@@ -38,7 +38,7 @@ class LoginState extends State<LoginPage> {
         welcometext,
         logintext,
         new Email(),
-        new  Password(),
+        new Password(),
         new Loginbtn(),
         new Forgetpassword(),
       ],
